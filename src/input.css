@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    @apply mx-auto max-w-[90rem] w-full;
+}
+.container2{
+    @apply mx-auto max-w-[115rem] w-full;
+}
+@layer components{
+    .btn{
+        @apply inline-block px-[2rem] py-[.9rem] border-[1px] border-solid border-transparent rounded-full;
+    }
+    .btn2{
+        @apply inline-block px-[2rem] py-[.7rem] border-[1px] border-solid border-transparent rounded-full;
+    }
+    .toggle__menu span{
+        @apply bg-white w-[2rem] h-[.2rem] block mb-[.3rem] ease-out duration-[.3s];
+    }
+    .toggle__menu.open span:first-child{
+        @apply translate-y-[1rem] rotate-[40deg];
+    }
+    .toggle__menu.open span:nth-child(2){
+        @apply opacity-0;
+    }
+    .toggle__menu.open span:last-child{
+        @apply rotate-[-40deg];
+    }
+    .header__nav ul li:not(:nth-child(4)){
+        @apply p-[.5rem] lg:p-[1.1rem] hover:text-green-500;
+    }
+    .header__nav ul li:nth-child(4){
+        @apply my-[1.7rem];
+    }
+    .header__nav ul li:nth-child(5){
+        @apply py-[.5rem] lg:p-[1.1rem];
+    }
+    .header__nav ul li:last-child{
+        @apply py-[.5rem] lg:p-[1.1rem];
+    }
+    .header__nav.open{
+        @apply right-[-5rem];
+    }
+    .header__nav ul li a{
+        @apply text-[2rem] lg:text-[.8rem] ;
+    }
+    .dark-background.show{
+        @apply w-full ease-in-out;
+    }
+    .pick__body{
+        @apply min-h-[21rem] flex flex-col justify-between;
+    }
+    .pick__body ul li{
+        @apply  flex;
+    }
+    
+    .links__item ul{
+        @apply transition ease-in duration-[.5s];
+    }
+    .links__item ul.open{
+        @apply max-h-[20rem] block transition ease-out duration-[.5s];
+    }
+    .links__item ul li{
+        @apply py-[1rem] lg:py-[.5rem];
+    }
+    .links__item ul li a{
+        @apply hover:text-green-500 lg:text-[.8rem] capitalize;
+    }
+    .links__socials ul li{
+        @apply p-[.5rem] px-[.6rem] cursor-pointer rounded-full bg-gray-800;
+    }
+    .links__socials ul li i{
+        @apply text-[1.3rem];
+    }
+    .links__item i{
+        @apply ease-in-out duration-[.5s] lg:hidden;
+    }
+    .links__item i.open{
+        @apply rotate-[180deg] ease-in-out duration-[.5s];
+    }
+    .footer__links ul li{
+        @apply mr-[.5rem] lg:mr-[1rem];
+    }
+    .footer__links ul li a{
+        @apply text-[.6rem] lg:text-[.8rem] hover:text-green-500;
+    }
+
+
+
+    /* ----------DEVELOPERS PAGE-------------- */
+
+    .dev__menu span{
+        @apply bg-white w-[2rem] h-[.2rem] block mb-[.3rem] ease-out duration-[.3s];
+    }
+    .dev__menu.open span:first-child{
+        @apply translate-y-[1rem] rotate-[40deg];
+    }
+    .dev__menu.open span:nth-child(2){
+        @apply opacity-0;
+    }
+    .dev__menu.open span:last-child{
+        @apply rotate-[-40deg];
+    }
+    .dev__nav ul li{
+        @apply p-[1.5rem] lg:p-0 lg:py-[1.5rem] lg:mr-[2rem];
+    }
+    .dev__nav ul li:not(:last-child){
+        @apply border-b-[1px] border-gray-600 lg:border-none;
+    }
+    .slidee{
+        @apply ease-in-out duration-[.5s];
+    }
+
+    .slidee.show{
+        @apply top-[32rem] ease-in-out duration-[.5s];
+    }
+    .dev__banner__text h4{
+        @apply font-bold;
+    }
+    
+    .dev__nav ul li{
+        @apply ease-in-out duration-[.5s];
+    }
+    .dev__nav ul li:nth-child(2):hover .docc{
+        @apply lg:top-[4.5rem] lg:h-[20rem] ease-in duration-[.5s];
+    }
+    .dev__nav ul li:nth-child(4):hover .comm{
+        @apply lg:top-[4.5rem] lg:h-[8rem] ease-in-out duration-[.5s];
+    }
+    .dev__nav ul .uses:last-child:hover .uses__drop{
+        @apply lg:top-[4.5rem] lg:h-[12rem] ease-in-out duration-[.5s];
+    }
+    .comm li{
+        @apply hover:text-green-500 lg:p-[2rem];
+    }
+    
+    .uses ul li ul li {
+        @apply p-0;
+    }
+    .docc li ul li {
+        @apply p-0 lg:py-[.3rem];
+    }
+
+    .explore__item ul li a{
+        @apply flex flex-col items-center text-center;
+    }
+    .explore__item ul li a img {
+        @apply mb-[.6rem];
+    }
+
+    .active{
+        @apply border-b-[4px] border-green-500;
+    }
+}

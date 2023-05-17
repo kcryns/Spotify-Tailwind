@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <script src="https://kit.fontawesome.com/9c749cac5e.js" crossorigin="anonymous"></script>
+    <title>Spotify | Mockup</title>
+</head>
+<body class="overflow-x-hidden">
+    <!-- bg dark in mobile view -->
+    <div class="dark-background lg:hidden bg-black absolute z-[1] opacity-[.5] top-0 right-0 h-[100vh] w-0"></div>
+
+    <!-- HEADER -->
+    <header class="header bg-black w-full relative">
+        <div class="container">
+            <div class="header__wrapper flex justify-between items-center mx-[1rem] lg:mx-[26rem]">
+                <div class="branding p-[1rem]">
+                    <a href="#"><img class="w-[7rem]" src="./img/logofinal.png" alt=""></a>
+                </div>
+                <div class="header__nav z-[999] ease-in-out duration-300 absolute bg-black top-0 w-full h-[100vh] right-[-100rem] lg:static lg:w-auto lg:h-auto flex flex-col justify-between">
+                    <ul class="text-white font-bold lg:flex p-[2rem] lg:p-0">
+                        <li><a href="#" >Premium</a></li>
+                        <li><a href="#" >Support</a></li>
+                        <li><a href="#" >Download</a></li>
+                        <li class="w-[1.3rem] h-[.1rem] bg-white ml-[1.4rem] lg:ml-[0] lg:rotate-[90deg]"></li>
+                        <li><a href="#" class="text-[1rem] font-light lg:font-bold">Sign up</a></li>
+                        <li><a href="#" class="text-[1rem] font-light lg:font-bold">Log in</a></li>
+                    </ul>
+                    <figure class="p-[1rem] lg:hidden">
+                        <a href="#"><img class="w-[6rem]" src="./img/logofinal.png" alt=""></a>
+                    </figure>
+                </div>
+                <div class="toggle__menu lg:hidden z-[999]">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end of HEADER -->
+
+    <!-- BANNER -->
+    <section class="banner bg-dgreen py-[3rem] px-[1rem] lg:py-[5rem]">
+        <div class="container">
+            <div class="banner__wrapper flex flex-col justify-between items-center gap-[2rem] lg:flex-row lg:mx-[26rem]">
+                <div class="banner__content text-[#C5F0C9] ">
+                    <h2 class="font-bold text-[1.6rem] lg:text-[2.5rem]">Get Premium free for 2 months</h2>
+                    <p class="text-[1.05rem] lg:text-[1.35rem] mt-[1rem]">Limited time offer for Individual or Student plans. Cancel anytime.</p>
+                    <div class="banner__btn flex flex-col text-center gap-[1rem] my-[2rem] lg:flex-row lg:gap-1">
+                        <a href="#" class="btn bg-[#0f0f0f] hover:bg-black font-bold text-[.9rem] hover:scale-[1.05] ease-in-out">GET STARTED</a>
+                        <a href="#" class="btn border-1 border-[#C5F0C9] font-bold text-[.9rem] hover:scale-[1.05] hover:bg-[#094234] ease-in-out">VIEW PLANS</a>
+                    </div>
+                    <p class="text-[.6rem] w-[27rem] lg:text-[.7rem] lg:w-[38rem]"><a href="#" class="underline">Terms and conditions apply.</a> Monthly subscription fee applies after. 2 months free only open to users who haven't already tried Premium. Offer ends March 31, 2023.</p>
+                </div>
+                <img class="w-[25rem] lg:w-[25.5rem]" src="./img/banner-photo.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- end of BANNER -->
+
+    <!-- PREMIUM -->
+    <section class="premium py-[3rem]">
+        <div class="container">
+            <div class="premium__title text-center">
+                <h2 class="font-bold text-[1.7rem] lg:text-[2.3rem]">Why go Premium?</h2>
+            </div>
+            <div class="premium__wrapper grid grid-col-1 mx-[2rem] gap-[2rem] lg:grid-cols-4 lg:mx-[26rem]">
+                <div class="premium__item flex items-center gap-[1rem] lg:flex-col lg:text-center">
+                    <img class="w-[6rem] lg:w-[8rem]" src="./img/note.jpg" alt="">
+                    <div class="premium__content lg:mt-[1rem]">
+                        <h4 class="font-bold text-[1.1rem] lg:mb-[.5rem]">Download Music.</h4>
+                        <p class="lg:text-[1rem]">Listen anywhere.</p>
+                    </div>
+                </div>
+                <div class="premium__item flex items-center gap-[1rem] lg:flex-col lg:text-center">
+                    <img class="w-[6rem] lg:w-[8rem]" src="./img/warning.jpg" alt="">
+                    <div class="premium__content lg:mt-[1rem]">
+                        <h4 class="font-bold text-[1.1rem] lg:mb-[.5rem]">Ad-free music listening.</h4>
+                        <p class="lg:text-[1rem]">Enjoy nonstop music.</p>
+                    </div>
+                </div>
+                <div class="premium__item flex items-center gap-[1rem] lg:flex-col lg:text-center">
+                    <img class="w-[6rem] lg:w-[8rem]" src="./img/music.jpg" alt="">
+                    <div class="premium__content lg:mt-[1rem]">
+                        <h4 class="font-bold text-[1.1rem] lg:mb-[.5rem]">Play any song.</h4>
+                        <p class="lg:text-[1rem]">Even on mobile.</p>
+                    </div>
+                </div>
+                <div class="premium__item flex items-center gap-[1rem] lg:flex-col lg:text-center">
+                    <img class="w-[6rem] lg:w-[8rem]" src="./img/play.jpg" alt="">
+                    <div class="premium__content lg:mt-[1rem] lg:mb-[.5rem]">
+                        <h4 class="font-bold text-[1.1rem] lg:mb-[.5rem]">Unlimited skips.</h4>
+                        <p class="lg:text-[1rem]">Just hit next.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of PREMIUM -->
+
+    <!-- PICK -->
+    <section class="pick bg-gray-200 py-[3rem]">
+        <div class="container">
+            <div class="pick__title text-center">
+                <h2 class="font-bold text-[1.7rem] lg:text-[2.3rem]">Pick your Premium</h2>
+                <p class="text-[.9rem]">Listen without limits on your phone, speaker, and other devices.</p>
+                <ul class="flex items-center justify-center mx-[auto] gap-[.5rem]">
+                    <li><img class="w-[2rem]" src="./img/visa.svg" alt=""></li>
+                    <li><img class="w-[2rem]"src="./img/master-card.svg" alt=""></li>
+                    <li><img class="w-[2rem]"src="./img/amex.svg" alt=""></li>
+                    <li><img class="w-[2rem]"src="./img/discover.svg" alt=""></li>
+                    <li><img class="w-[2rem]"src="./img/paypal.png" alt=""></li>
+                </ul>
+            </div>
+            <div class="pick__wrapper m-[2rem] grid grid-col-1 gap-[1.5rem] lg:grid-cols-4 lg:mx-[25rem]">
+                <div class="pick__card bg-white rounded-[1rem] p-[1rem] shadow-2xl">
+                    <div class="pick__head border-b-2 border-gray-300">
+                        <h5 class="bg-dblue text-white inline-block p-[.2rem] rounded-[5px] font-bold text-[.9rem]">2 months free</h5>
+                        <h3 class="text-[1.8rem] font-bold">Individual</h3>
+                        <p class="text-[1rem]">$9.99/month after offer period</p>
+                        <p class="text-[1rem] mb-[1.2rem]">1 account</p>
+                    </div>
+                    <div class="pick__body">
+                        <ul class="py-[1rem] flex flex-col gap-[.5rem]">
+                            <li><i class="fa-solid fa-check text-[1.5rem] mr-[.5rem]"></i> Ad-free music listening</li>
+                            <li><i class="fa-solid fa-check text-[1.5rem] mr-[.5rem]"></i> Play anywhere - even offline</li>
+                            <li><i class="fa-solid fa-check text-[1.5rem] mr-[.5rem]"></i> On-demand playback</li>
+                        </ul>
+                        <div class="pick__btn text-center">
+                            <a href="#" class="btn2 bg-black text-white font-bold w-full hover:scale-[1.05]">GET STARTED</a>
+                        </div>
+                    </div>
+                    <div class="pick__text">
+                        <p class="text-[.7rem] text-gray-600 mt-[.9rem] leading-[1.1]">
+                            Monthly subscription fee applies after. 2 months free only open to users who haven't already tried Premium. Offer ends March 31, 2023. <a href="#" class="underline">Terms and conditions apply.</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="pick__card bg-white rounded-[1rem] p-[1rem] shadow-2xl">
+                    <div class="pick__head border-b-2 border-gray-300">
+                        <h5 class="bg-dblue text-white inline-block p-[.2rem] rounded-[5px] font-bold text-[.9rem]">2 months free</h5>
+                        <h3 class="text-[1.8rem] font-bold">Students</h3>
+                        <p class="text-[1rem]">$3.99/month after offer period</p>
+                        <p class="text-[1rem] mb-[1.2rem]">1 account</p>
+                    </div>
+                    <div class="pick__body">
+                        <ul class="py-[1rem] flex flex-col gap-[.5rem]">
+                            <li><i class="fa-solid fa-check text-[1.5rem] mr-[.5rem]"></i> Hulu (With Ads) plan</li>
+                            <li><i class="fa-solid fa-check text-[1.5rem] mr-[.5rem]"></i> SHOWTIME</li>
+                            <li><i class="fa-solid fa-check text-[1.5rem] mr-[.5rem]"></i> Ad-free music listening</li>
+                            <li><i class="fa-solid fa-check text-[1.5rem] mr-[.5rem]"></i> Play anywhere - even offline</li>
+                            <li><i class="fa-solid fa-check text-[1.5rem] mr-[.5rem]"></i> On-demand playback</li>
+                        </ul>
+                        <div class="pick__btn text-center">
+                            <a href="#" class="btn2 bg-black text-white font-bold w-full hover:scale-[1.05]">GET STARTED</a>
+                        </div>
+                    </div>
+                    <div class="pick__text">
+                        <p class="text-[.7rem] text-gray-600 mt-[.9rem] leading-[1.1]">
+                            Offer currently includes access to Hulu (With Ads) plan and SHOWTIME Streaming Service, subject to eligibility. Available only to students at an accredited higher education institution. 2 months free only open to higher education students who haven't already tried Premium. Offer ends March 31, 2023. <a href="#" class="underline">Terms and conditions apply.</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="pick__card bg-white rounded-[1rem] p-[1rem] shadow-2xl">
+                    <div class="pick__head border-b-2 border-gray-300">
+                        <h5 class="bg-dblue text-white inline-block p-[.2rem] rounded-[5px] font-bold text-[.9rem]">1 month free</h5>
+                        <h3 class="text-[1.8rem] font-bold">Duo</h3>
+                        <p class="text-[1rem]">$12.99/month after offer period</p>
+                        <p class="text-[1rem] mb-[1.2rem]">2 account</p>
+                    </div>
+                    <div class="pick__body">
+                        <ul class="py-[1rem] flex flex-col gap-[.5rem]">
+                            <li><i class="fa-solid fa-check text-[1.5rem] mr-[.5rem]"></i> 2 Premium accounts for a couple under one roof</li>
+                            <li><i class="fa-solid fa-check text-[1.5rem] mr-[.5rem]"></i> Ad-free music listening, play offline, on-demand playback</li>
+                            
+                        </ul>
+                        <div class="pick__btn text-center">
+                            <a href="#" class="btn2 bg-black text-white font-bold w-full hover:scale-[1.05]">GET STARTED</a>
+                        </div>
+                    </div>
+                    <div class="pick__text">
+                        <p class="text-[.7rem] text-gray-600 mt-[.9rem] leading-[1.1]">
+                            <a href="#" class="underline">Terms and conditions apply.</a> 1 month free not available for users who have already tried Premium.
+                        </p>
+                    </div>
+                </div>
+                <div class="pick__card bg-white rounded-[1rem] p-[1rem] shadow-2xl">
+                    <div class="pick__head border-b-2 border-gray-300">
+                        <h5 class="bg-dblue text-white inline-block p-[.2rem] rounded-[5px] font-bold text-[.9rem]">2 months free</h5>
+                        <h3 class="text-[1.8rem] font-bold">Individual</h3>
+                        <p class="text-[1rem]">$9.99/month after offer period</p>
+                        <p class="text-[1rem] mb-[1.2rem]">1 account</p>
+                    </div>
+                    <div class="pick__body">
+                        <ul class="py-[1rem] flex flex-col gap-[.5rem]">
+                            <li><i class="fa-solid fa-check text-[1.5rem] mr-[.5rem]"></i> 6 Premium accounts for family members living under one roof</li>
+                            <li><i class="fa-solid fa-check text-[1.5rem] mr-[.5rem]"></i> Block explicit music</li>
+                            <li><i class="fa-solid fa-check text-[1.5rem] mr-[.5rem]"></i> Ad-free music listening, play offline, on-demand playback</li>
+                            <li><i class="fa-solid fa-check text-[1.5rem] mr-[.5rem]"></i> Spotify Kids: a separate app made just for kids</li>
+                        </ul>
+                        <div class="pick__btn text-center">
+                            <a href="#" class="btn2 bg-black text-white font-bold w-full hover:scale-[1.05]">GET STARTED</a>
+                        </div>
+                    </div>
+                    <div class="pick__text">
+                        <p class="text-[.7rem] text-gray-600 mt-[.9rem] leading-[1.1]">
+                            <a href="#" class="underline">Terms and conditions apply.</a> 1 month free not available for users who have already tried Premium.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of PICK -->
+
+    <!-- links -->
+    <section class="links bg-black p-[2rem] lg:pt-[4rem]">
+        <div class="container">
+            <div class="links__wrapper lg:flex lg:justify-between  lg:mx-[20rem]">
+                <div class="links__nav lg:grid lg:grid-cols-4 lg:gap-[5rem] lg:items-start">
+                    <img class="w-[6rem]" src="./img/logofinal.png" alt="">
+
+                    <div class="links__item ">
+                        <h4 class="uppercase text-gray-600 font-bold my-[1.5rem] flex justify-between items-center cursor-pointer lg:my-[0] lg:text-[.7rem]">Company <i class="fa-solid fa-chevron-down"></i></h4>
+                        <ul class="text-white hidden gap-[1rem] max-h-0 lg:block lg:max-h-[30rem]">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">For the Record</a></li>
+                        </ul>
+                    </div>
+                    <div class="links__item ">
+                        <h4 class="uppercase text-gray-600 font-bold my-[1.5rem] flex justify-between items-center cursor-pointer lg:my-[0] lg:text-[.7rem]">Communities <i class="fa-solid fa-chevron-down"></i></h4>
+                        <ul class="text-white hidden gap-[1rem] max-h-0 lg:block lg:max-h-[30rem]">
+                            <li><a href="#">For artist</a></li>
+                            <li><a href="./developer.html">Developers</a></li>
+                            <li><a href="#">advertising</a></li>
+                            <li><a href="#">Investors</a></li>
+                            <li><a href="#">Vendors</a></li>
+                        </ul>
+                    </div>
+                    <div class="links__item ">
+                        <h4 class="uppercase text-gray-600 font-bold my-[1.5rem] flex justify-between items-center cursor-pointer lg:my-[0] lg:text-[.7rem]">useful links <i class="fa-solid fa-chevron-down"></i></h4>
+                        <ul class="text-white hidden gap-[1rem] max-h-0 lg:block lg:max-h-[30rem]">
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Web Player</a></li>
+                            <li><a href="#">Free Mobile App</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="links__socials relative">
+                    <ul class="text-white  flex gap-[1rem]">
+                        <li class="group"><i class="fa-brands fa-instagram group-hover:text-green-500"></i></li>
+                        <li class="group"><i class="fa-brands fa-facebook group-hover:text-green-500"></i></li>
+                        <li class="group"><i class="fa-brands fa-twitter group-hover:text-green-500"></i></li>
+                    </ul>
+                    <figure class="absolute bottom-[-2rem] right-0  text-white flex items-center gap-[.3rem]">
+                        <img class="w-[.8rem]" src="./img/vector2 (1).png" alt="">
+                        <a class="text-[.6rem] hover:text-green-500 lg:text-[.9rem]" href="#">USA</a>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of links -->
+
+    <!-- FOOTER -->
+    <footer class="footer bg-black py-[1rem] lg:pb-[3rem]">
+        <div class="container">
+            <div class="footer__wrapper flex gap-[2rem] justify-between items-center mx-[1.5rem] lg:mx-[28rem]">
+                <div class="footer__links">
+                    <ul class="text-gray-600 flex flex-wrap">
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Privacy Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">About Ads</a></li>
+                        <li><a href="#">Cookies Settings</a></li>
+                    </ul>
+                </div>
+                <div class="footer__copyright w-[1rem] lg:w-[7rem]">
+                    <p class="text-gray-600 text-[.6rem] lg:text-[.8rem]">© 2023 Spotify AB</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of FOOTER -->
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
